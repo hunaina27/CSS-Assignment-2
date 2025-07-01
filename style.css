@@ -89,13 +89,13 @@ body {
   color: #ff4d4d;
   font-size: 60px;
   margin-bottom: 10px;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   
 }
 
 .hero-text h2 {
   color: #2f2f6f;
-  
+  letter-spacing: -2px;
   font-size: 60px;
   letter-spacing: -1px;
 }
