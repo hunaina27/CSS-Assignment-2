@@ -39,12 +39,23 @@ body {
 
 .logo-text {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
+
 
 .logo-text span {
   color: #ff4d4d;
-  font-weight: bold;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 
@@ -54,17 +65,28 @@ body {
    align-items: center;
    margin-right: 50px;
   list-style: none;
+  
 }
 
 .navbar li a {
   text-decoration: none;
   margin: 0 15px;
-  color: black;
+  color: rgb(34, 33, 33);
+  filter: blur(0.5px); /* Default blur for all links */
+  transition: 0.3s ease;
   font-size: 16px;
   font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .navbar li a.active {
+  color: black;
+  font-weight: bold;
+  filter: none; /* No blur for the current page link */
   font-weight: bold;
 }
 
@@ -80,24 +102,30 @@ body {
 .hero-text{
     flex:1;
     max-width: 450px;
-    margin-bottom: 100px;
+    
   
    
 }
 
 .hero-text h1 {
   color: #ff4d4d;
-  font-size: 60px;
+  font-size: 80px;
   margin-bottom: 10px;
-  letter-spacing: -2px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
   
 }
 
 .hero-text h2 {
   color: #2f2f6f;
-  letter-spacing: -2px;
-  font-size: 60px;
-  letter-spacing: -1px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  
 }
 
 .hero-text p {
@@ -106,6 +134,11 @@ body {
   font-weight: 500;
   max-width: 350px;
   color:#2f2f6f ;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .btn {
@@ -116,6 +149,11 @@ body {
   font-weight: 400;
   border-radius: 5px;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
   
 }
 
