@@ -6,7 +6,6 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
   background-color: #fffaf5;
   line-height: 1.5;
 }
@@ -19,26 +18,29 @@ body {
   align-items: center;
   padding: 15px 5%;
   background-color: #fffaf5;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .15) ;
 }
 
 
 .navbar-left {
   display: flex;
   align-items: center;
-  padding: 15px;
+  padding: 3px;
+  vertical-align: middle;
+  
 }
 
 .logo-img {
-  width: auto;
-  height: 55px;
+  height: 28px;
   object-fit: contain;
-  margin-right: 10px;
+  margin-right: 0px;
+  margin-left: 10px;
 }
 
 .logo-text {
   font-size: 20px;
   font-weight: 400;
+  color:rgba(0, 0, 0, 0.9);
   padding: 10px;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -50,7 +52,8 @@ body {
 
 .logo-text span {
   color: #ff8367;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 800;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -70,11 +73,11 @@ body {
 
 .navbar li a {
   text-decoration: none;
-  margin: 0 14px;
-  color: rgb(98, 95, 95);
+  margin: 0 15px;
+  color: rgba(0, 0, 0, 0.682);
   filter: blur(0.3px);
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -95,7 +98,10 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 16px 8%;
+  padding: 16px ;
+  margin-top: 25px;
+  margin-right: 80px;
+  
   
 }
 
@@ -103,13 +109,14 @@ body {
     flex:1;
     max-width: 450px;
     margin-bottom: 40px;
+    
+    
    
 }
 
 .hero-text h1 {
   color: #ff8367;
   font-size: 80px;
-  
   font-family: "Bebas Neue", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -152,7 +159,7 @@ body {
   color: #fff;
   text-align: center;
   vertical-align: middle;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
@@ -178,10 +185,10 @@ body {
   display: flex;
   justify-content: center;
   position:relative;
-  top: 20px;
- margin-right: 60px;
+  bottom: 30px;
+  margin-right: 60px;
   
-  
+ 
 }
 
 .hero-image {
