@@ -93,6 +93,7 @@ body {
 }
 
 /* ===== HERO SECTION ===== */
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -105,14 +106,68 @@ body {
   
 }
 
-.hero-text{
-    flex:1;
-    max-width: 450px;
-    margin-bottom: 40px;
-    
-    
-   
+/* Only Home Page layout */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 16px;
+  margin-top: 25px;
+  margin-right: 80px; /* only for home */
 }
+
+/* Other Pages (Product, About, Contact) */
+.inner-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-right: 0 !important;
+  margin-top: 25px;
+  padding: 16px;
+}
+
+/* Home page only */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 16px;
+  margin-top: 25px;
+  margin-right: 80px; /* only home page */
+}
+
+/* Other Pages only */
+.inner-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 25px;
+  padding: 16px;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 450px;
+  margin-bottom: 40px;
+  
+}
+
+
+ .inner-hero .hero-text {
+  flex: 1;
+  max-width: 450px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  
+}
+
+
 
 .hero-text h1 {
   color: #ff8367;
@@ -197,7 +252,6 @@ body {
   position:relative;
  
 }
-
 
 .shoe{
   max-width: 100%;
