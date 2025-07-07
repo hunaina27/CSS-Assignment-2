@@ -9,7 +9,6 @@ body {
   background-color: #fffaf5;
   line-height: 1.5;
 }
-
 /* ===== NAVBAR ===== */
 .navbar {
   display: flex;
@@ -138,6 +137,7 @@ body {
   padding: 16px;
   margin-top: 25px;
   margin-right: 80px; /* only home page */
+  margin-bottom: 30px;
 }
 
 /* Other Pages only */
@@ -270,11 +270,13 @@ body {
   font-weight: 500;
   line-height: 1.2;
 }
-
+.top{
+  margin-top: 20px;
+}
 /* ===== PRODUCT SECTION ===== */
 .product-section {
   background-color: #E5E5E5;
-  padding: 20px 80px;
+  padding: 20px 30px;
   
 
 }
@@ -300,7 +302,6 @@ body {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    height: 100% !important;
     border: none;
     border-radius: 20px;
     max-width: 30%;
@@ -319,7 +320,6 @@ body {
 .formal-img {
   background-color: #ffffff !important;
 }
-
 
 .product-card .card-body{
   flex: 1 1 auto;
