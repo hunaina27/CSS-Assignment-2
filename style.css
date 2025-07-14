@@ -8,8 +8,18 @@
 body {
  
   line-height: 1.5;
-  background-color: #E5E5E5;
+  background-color: #E5E5E5;;
 
+}
+
+.background{
+   background-color: #fffaf5;
+   height: 600px;
+   
+}
+
+.other-background{
+   background-color: #fffaf5;
 }
 /* ===== NAVBAR ===== */
 .navbar {
@@ -94,12 +104,6 @@ body {
 }
 
 /* ===== HERO SECTION ===== */
-.background{
-   background-color: #fffaf5;
-   height: 600px;
-   
-}
-
 /* Home page only */
 .hero {
   display: flex;
@@ -157,7 +161,9 @@ body {
   color: #363958;
 }
 
-
+.other-h1{
+  color: #363958;
+}
 
 .hero-text p {
   margin-bottom: 15px;
