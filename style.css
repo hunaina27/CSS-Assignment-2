@@ -19,7 +19,7 @@ body {
   align-items: center;
   padding: 15px 5%;
   background-color: #fffaf5;
-  box-shadow: 0 .8px 16px rgba(0, 0, 0, .15) !important;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
 }
 
 
@@ -459,9 +459,11 @@ body {
 .subscribe-form {
   display: flex;
   justify-content: center;
-  max-width: 700px;
+  max-width: 1000px;
+  padding: 24px;
   margin: 0 auto;
-  padding: 6px 12px;
+  /* padding: 6px 12px; */
+  
   
 }
 
@@ -479,9 +481,8 @@ body {
 }
 
 .subscribe-form button {
-  padding: 14px 24px;
-   font-size: 16px;
-   color: #fff;
+  font-size: 16px;
+  color: #fff;
   border: none;
   border-radius: 0 4px 4px 0;
   cursor: pointer;
