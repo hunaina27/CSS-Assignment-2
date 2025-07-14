@@ -96,40 +96,8 @@ body {
 /* ===== HERO SECTION ===== */
 .background{
    background-color: #fffaf5;
-}
-.hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 16px ;
-  margin-top: 25px;
-  margin-right: 80px;
-  
-  
-}
-
-/* Only Home Page layout */
-.hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 16px;
-  margin-top: 25px;
-  margin-right: 80px; /* only for home */
-}
-
-/* Other Pages (Product, About, Contact) */
-.inner-hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 50px;
-  margin-right: 0 !important;
-  margin-top: 25px;
-  padding: 16px;
+   height: 600px;
+   
 }
 
 /* Home page only */
@@ -141,7 +109,7 @@ body {
   padding: 16px;
   margin-top: 25px;
   margin-right: 80px; /* only home page */
-  margin-bottom: 30px;
+  
 }
 
 /* Other Pages only */
@@ -435,10 +403,10 @@ body {
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
   border: none;
   text-align: center;
-  width: 85%;
+  width: 88%;
   display: flex;
   flex-direction: column;
-  margin-left: 90px;
+  margin-left: 80px;
   margin-bottom: 50px;
   
 
@@ -476,9 +444,10 @@ body {
   border-right: none;
   border-radius: 4px 0 0 4px;
   outline: none;
-  margin-bottom: 14px;
+  
   
 }
+
 
 .subscribe-form button {
   font-size: 16px;
@@ -495,24 +464,32 @@ body {
 
 /* ===== FOOTER ===== */
 .footer {
-  background-color: #f2f2f2;
-  padding: 50px 5%;
-  color: #1d1d1f;
-  font-family: sans-serif;
+  padding: 30px 5%;
+  color: rgb(33, 37, 41);
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa !important
+  
+}
+
+.feature-box {
+
 }
 
 .footer-links {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 30px;
+  gap: 10px;
   margin-bottom: 20px;
+  margin-left: 30px;
 }
 
-.footer-links h3 {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #1d1d1f;
+.footer-links h5 {
+  padding: 10px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgb(54, 57, 88);
+
 }
 
 .footer-links ul {
@@ -521,17 +498,18 @@ body {
 }
 
 .footer-links li {
-  font-size: 14px;
-  line-height: 1.8;
+  font-size: 16px;
+  line-height: 1.5;
   cursor: pointer;
 }
 
 .footer-note {
+  margin-top: 50px;
   text-align: center;
-  font-size: 14px;
-  color: #444;
+  font-size: 16px;
+  color: rgb(33, 37, 41);
 }
 
 .footer-note span {
-  color: #fc5c65;
+  color:rgb(255, 131, 103);
 }
