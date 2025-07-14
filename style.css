@@ -89,7 +89,7 @@ body {
 .navbar li a.active {
   color: rgb(10, 10, 10);
   font-weight: bold;
-  filter: none; /* No blur for the current page link */
+  filter: none;
   font-weight: bold;
 }
 
