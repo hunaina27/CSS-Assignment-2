@@ -8,8 +8,7 @@
 body {
  
   line-height: 1.5;
-  background-color: #E5E5E5;;
-
+  background-color: #E5E5E5;
 }
 
 .background{
@@ -23,6 +22,10 @@ body {
 }
 /* ===== NAVBAR ===== */
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
   display: flex;
   height: 55px;
   justify-content: space-between;
@@ -131,7 +134,7 @@ body {
   flex: 1;
   max-width: 450px;
   margin-bottom: 40px;
-  
+  margin-top: 60px;
 }
 
 
@@ -217,7 +220,9 @@ body {
   justify-content: center;
   position:relative;
   bottom: 30px;
+  height: auto;
   margin-right: 60px;
+  margin-top: 70px;
   
  
 }
