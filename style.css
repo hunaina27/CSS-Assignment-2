@@ -24,6 +24,7 @@ body {
 /* ===== NAVBAR ===== */
 .navbar {
   display: flex;
+  position: fixed;
   height: 55px;
   justify-content: space-between;
   align-items: center;
